@@ -45,6 +45,7 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.владельцыBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.бДDataSet)).BeginInit();
@@ -133,7 +134,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(585, 199);
+            this.button3.Location = new System.Drawing.Point(686, 197);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 28);
@@ -147,7 +148,7 @@
             this.comboBox1.DataSource = this.владельцыBindingSource;
             this.comboBox1.DisplayMember = "Код";
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(457, 202);
+            this.comboBox1.Location = new System.Drawing.Point(558, 200);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 24);
             this.comboBox1.TabIndex = 8;
@@ -155,7 +156,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(318, 230);
+            this.textBox5.Location = new System.Drawing.Point(558, 262);
             this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(132, 22);
@@ -164,7 +165,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(318, 199);
+            this.textBox6.Location = new System.Drawing.Point(558, 233);
             this.textBox6.Margin = new System.Windows.Forms.Padding(4);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(132, 22);
@@ -173,7 +174,7 @@
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(318, 262);
+            this.textBox7.Location = new System.Drawing.Point(514, 287);
             this.textBox7.Margin = new System.Windows.Forms.Padding(4);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(132, 22);
@@ -182,18 +183,28 @@
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(318, 292);
+            this.textBox8.Location = new System.Drawing.Point(654, 287);
             this.textBox8.Margin = new System.Windows.Forms.Padding(4);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(132, 22);
             this.textBox8.TabIndex = 12;
             this.textBox8.Text = "Телефон";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(405, 238);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(146, 17);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "Поля для изменения";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(799, 322);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox6);
@@ -237,6 +248,7 @@
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Label label1;
     }
 }
 

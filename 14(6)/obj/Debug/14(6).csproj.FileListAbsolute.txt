@@ -16,3 +16,6 @@ C:\Users\Сергей\Desktop\ПИС\14\14(6)\14(6)\obj\Debug\_14_6_.Form1.resou
 C:\Users\Сергей\Desktop\ПИС\14\14(6)\14(6)\obj\Debug\_14_6_.Properties.Resources.resources
 C:\Users\Сергей\Desktop\ПИС\14\14(6)\14(6)\obj\Debug\14(6).csproj.GenerateResource.Cache
 C:\Users\Сергей\Desktop\ПИС\14\14(6)\14(6)\bin\Debug\БД.mdb
+C:\reposit\14(6)\bin\Debug\14(6).exe.config
+C:\reposit\14(6)\obj\Debug\14(6).exe
+C:\reposit\14(6)\obj\Debug\14(6).pdb
